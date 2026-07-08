@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin:auto;
+}
+.d-inline-block {
+    display: inline-block;
+}
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+}
+.text-white {
+    color: white;
+}
+a {
+    text-decoration: none;
+    color : inherit;
+}
+ul {
+    list-style: none;
+}
+
+.bg-dark {
+    background: #000;
+}
+nav {
+    color: white;
+    padding: 1% 0%;
+}
+nav ul {
+    padding-top: 5px;
+    width: 31%;
+}
+
+nav li {
+    margin-left: 4%;
+}
+
+h1 span {
+    font-weight: 50;
+    color: rgb(201, 87, 46);
+}
+h2 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+}
+hr {
+    width: 60px;
+    margin-top:10px;
+    border: 2px solid white;
+}
+.block {
+    display: block;
+}
+.clear {
+    clear: both;
+}
+.bg-img {
+    background-image: url(../img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.377);
+}
+.left-part{
+    margin-top: 80px;
+    width: 50%;
+    margin-bottom: 80px;
+}
+.left-part h1 {
+    font-size: 60px;
+    color: white;
+}
+p {
+    color: rgb(185, 185, 185);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size:15px;
+}
+.left-part button {
+    font-size: 15;
+    padding: 8px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+
+}
+form {
+    margin-top: 80px;
+    background-color: white;
+    width: 25%;
+    border-radius: 10px;
+}
+form h3 {
+    padding-top: 20px;
+    text-align: center;
+}
+form h3 span {
+    color: rgb(201, 87, 46);
+}
+.contact-input {
+    width:  80%;
+    height: 40px;
+    margin: 20px 30px;
+    border: 0;
+    border-bottom: 1px solid black;
+    padding-left: 10px;;
+}
+.submit-btn{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: rgb(201, 87, 46);
+    border: 0;
+    border-radius: 0px 0px 10px 10px;
+}
