@@ -1,0 +1,62 @@
+/* Reset style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* Global style */
+.container {
+    width: 80%;
+    margin:auto;
+}
+.text-white {
+    color: white;
+}
+.d-inline-block {
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color : inherit;
+}
+.margin-left {
+    margin-left: 10% ;
+}
+.margin-bottom {
+    margin-bottom: 4%;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.margin-l-r {
+    margin: 0% 5%;
+}
+.bg-light {
+    background-color: rgb(228, 227, 227);
+}
+.padding-t-b {
+    padding: 4% 0%;
+}
+/* Custom style */
+nav {
+    background: #000;
+}
+nav h1 {
+    margin-right: 55%;
+}
+nav ul {
+    width :30%;
+}
+.card {
+    width: 30%;
+    background-color: white;
+    box-shadow: 0px 0px 4px 3px gray;
+    padding: 2%;
+}
