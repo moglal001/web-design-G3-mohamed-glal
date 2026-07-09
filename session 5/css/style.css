@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+section {
+    height: 800px;
+}
+.card {
+    background-color: lightgray;
+    width: 30%
+
+}
+.order{
+    order: -1;
+}
+.align-self-center {
+    align-self: center;
+}
+.flex{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+    background: teal;
+    align-content: space-evenly;
+    align-items: flex-start;
+}
