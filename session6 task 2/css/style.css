@@ -1,0 +1,36 @@
+/* reset style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat" , sans-serif;
+}
+/* global style */
+.container {
+    width: 80%;
+    margin: auto;
+}
+.d-flex {
+    display: flex;
+}
+.padding-t-b {
+    padding: 2% 0%;
+}
+.j-space-between {
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li {
+    list-style: none;
+}
+.margin-left {
+    margin-left: 8%;
+}
+
+/* custom style */
+nav ul {
+    width: 30%;
+}
