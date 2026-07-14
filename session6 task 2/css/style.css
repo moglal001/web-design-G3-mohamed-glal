@@ -97,3 +97,120 @@ nav i {
     width :50%;
     font-size: 20px;
 }
+.third-section h3 {
+    padding:2%;
+    font-size: 40px;
+    color: #2B2B2B;
+}
+.third-section .image  {
+    width:70%;
+    margin-right: 2%;
+}
+.third-section .image img  {
+    width:100%;
+    height: 100%;
+}
+.third-section .text {
+    width: 60%;
+}
+
+.third-section p {
+    font-size: 100%;
+        padding:2%;
+}
+.third-section .icon i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    border:2px solid #285E67;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #285E67;
+
+    
+}
+.third-section .icon p {
+    padding-left: 3%;
+}
+.fourth-section {
+    text-align: center;
+
+}
+.fourth-section text {
+width: 50%;
+}
+.fourth-section p {
+width: 50%;
+margin: auto;
+padding: 2% 0%;
+}
+.fourth-section .bg-img {
+    background-image: url(../img/5.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-size:100% 80% ; 
+}
+.fourth-section i {
+    padding: 20px;
+    width: 70px;
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    font-size: 30px;
+}
+.fourth-section button {
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 2%;
+}
+.fourth-section .side i {
+    color: rgb(26, 24, 24);
+    padding: 20px;
+    width: 70px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 30px;
+}
+.fourth-section .rectangle {
+    padding: 100px;
+    width: 90%;
+    margin: auto;
+    background-color: #FCE2D7;
+    color: #2A2A2A;
+    border-radius: 15px;;
+    
+}
+.fourth-section .rectangle p{
+    width:100%;
+}
+
+footer {
+    background-color:#285E67 ;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.content {
+    display:flex;
+}
+footer .logo {
+    padding: 20%;
+}
+footer .icons {
+    padding: 20%;
+}
+footer .icons li {
+    padding: 0% 10%;
+}
+footer ul {
+    padding: 20% 0%;
+}
+footer ul li{
+    padding: 0% 3%;
+}

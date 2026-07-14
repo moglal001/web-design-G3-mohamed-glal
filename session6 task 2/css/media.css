@@ -11,7 +11,31 @@
 .left-div p{
     margin: 4% 0%;
 }
-
+.fourth-section .rectangle {
+    flex-wrap: wrap;
+}
+.fourth-section .side i {
+    width: 50%;
+    margin :20px;
+}
+.content {
+    display:block;
+}
+footer .logo {
+    padding: 5%;
+}
+footer .icons {
+    padding: 5%;
+}
+footer .icons li {
+    padding: 0%;
+}
+footer ul {
+    padding: 3%;
+}
+footer ul li{
+padding: 0% 2%;
+}
 }
 @media (max-width: 1199.98px) {
     nav ul {
@@ -32,6 +56,9 @@
 .second-section img {
     display: none;
     
+}
+.third-section image {
+    width: 10%;
 }
 }
 
@@ -55,4 +82,46 @@
    display: block;
     
 }
+.third-section {
+    flex-wrap: wrap;
 }
+.third-section .image  {
+    width: 100%;
+    margin-right: 2%;
+}
+.third-section .image img  {
+    width:100%;
+    height: 100%;
+}
+.third-section  .text{
+    width:100%;
+    text-align: center;
+}
+.third-section  .icon{
+    width:100%;
+    text-align:left;
+}
+.fourth-section .rectangle {
+    flex-wrap: wrap;
+}
+.fourth-section .side i {
+    width: 60%;
+}
+.fourth-section .text p {
+display: none;
+}
+.fourth-section .rectangle p {
+display: flex;
+}
+footer .menu {
+    padding: 3%;
+    flex-wrap: wrap;
+}
+footer ul li{
+    width: 50%;
+padding: 2% 2%;
+}
+}
+
+
+
