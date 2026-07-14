@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.image {
+width: 100%;
+}
+.image img {
+width: 100%;
+position:relative
+}
+.car {
+    width :500px;
+    position: absolute;
+    left: -300px;
+    top: 60%;
+    animation: carAnimation 5s linear infinite;
+}
+.car img {
+    width: 100%;
+}
+
+@keyframes carAnimation {
+    from {
+        left:-100px;
+    }
+    to
+    {
+        left: 100%;
+    }
+}

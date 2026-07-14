@@ -1,10 +1,58 @@
 @media (max-width: 991.98px) {
     nav ul {
     width: 40%;
+    
 }
+.left-div {
+    display: block;
+    width:100%;
+    text-align: center;
 }
-@media (max-width: 1199.98px) { 
+.left-div p{
+    margin: 4% 0%;
+}
+
+}
+@media (max-width: 1199.98px) {
     nav ul {
     width: 40%;
 }
- }
+.second-section h2{
+    
+    text-align: center;
+}
+.left-div {
+    
+    width:100%;
+    text-align: center;
+}
+.left-div p { 
+    width:100%;
+}
+.second-section img {
+    display: none;
+    
+}
+}
+
+
+
+@media (max-width: 767.98px) {
+    .navbar {
+        visibility: hidden;
+    }
+    nav i {
+    visibility: visible;
+    align-self: center;
+    margin-right: 2% ;
+    position: initial;
+}
+.images img {
+    width: 100%;
+    
+}
+.images  {
+   display: block;
+    
+}
+}
