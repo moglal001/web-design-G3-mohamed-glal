@@ -1,0 +1,15 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat" , sans-serif;
+}
+.bg-img {
+    background-image: url(../img/Section_Hero.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.big-margin-b {
+    margin-bottom: 40%;
+}
